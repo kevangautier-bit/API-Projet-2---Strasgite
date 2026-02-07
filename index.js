@@ -8,15 +8,11 @@ import chambresRouter from "./routes/chambres.js";
 
 const app = express();
 
-// Middleware CORS - Configuration adaptative
-const corsOptions = {
-  origin: process.env.NODE_ENV === "production" 
-    ? ["https://ton-frontend-production.vercel.app"] // Remplace par l'URL réelle quand tu déploieras le front
-    : "*", // En dev : autorise tout (localhost de toute ta classe)
+// Middleware CORS - Autorise tout le monde (pour le dev)
+app.use(cors({
+  origin: "*",
   credentials: true
-};
-
-app.use(cors(corsOptions));
+}));
 
 // Middleware pour parser le JSON (si tu veux faire du POST plus tard)
 app.use(express.json());
