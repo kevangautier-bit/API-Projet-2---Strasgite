@@ -1,7 +1,7 @@
 export const chambres = [
   {
     id: 1,
-    nom: "La Suite Parisienne",
+    nom: "L'Élégance Terracotta",
     description: "Une chambre au style traditionnel parisien, avec une grande pièce principale lumineuse.",
     emplacement: "Strasbourg, France",
     capacite: 2,
@@ -20,7 +20,7 @@ export const chambres = [
   },
   {
     id: 2,
-    nom: "La Chambre Moderne",
+    nom: "Le Refuge Urbain",
     description: "Décor contemporain et minimaliste avec des tons neutres et vue sur le jardin.",
     emplacement: "Strasbourg, France",
     capacite: 2,
@@ -39,7 +39,7 @@ export const chambres = [
   },
   {
     id: 3,
-    nom: "La Suite Romantique",
+    nom: "La Suite Lumineuse",
     description: "Ambiance romantique avec un grand lit confortable et une pièce lumineuse.",
     emplacement: "Strasbourg, France",
     capacite: 2,
@@ -58,7 +58,7 @@ export const chambres = [
   },
   {
     id: 4,
-    nom: "La Chambre Zen",
+    nom: "Le Jardin Secret",
     description: "Décor épuré inspiré du Japon, avec des éléments en bois et un coin méditation.",
     emplacement: "Strasbourg, France",
     capacite: 2,
@@ -77,7 +77,7 @@ export const chambres = [
   },
   {
     id: 5,
-    nom: "La Chambre Baroque",
+    nom: "L'Atelier moderne",
     description: "Un style riche et baroque, orné de lustres en soie et de meubles en bois somptueux.",
     emplacement: "Strasbourg, France",
     capacite: 2,
@@ -96,7 +96,7 @@ export const chambres = [
   },
   {
     id: 6,
-    nom: "La Suite Nature",
+    nom: "Le Cocon Scandinave",
     description: "Ambiance apaisante avec des plantes vertes et des matériaux naturels.",
     emplacement: "Strasbourg, France",
     capacite: 2,
