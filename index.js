@@ -6,7 +6,7 @@ const app = express();
 
 // Middleware CORS - Autorise ton frontend React
 app.use(cors({ 
-  origin: ["http://localhost:5173", "http://localhost:3000"] 
+  origin: ["http://localhost:5173", "http://localhost:3000", "https://projetstrasgite.vercel.app"] 
 }));
 
 // Middleware pour parser le JSON (si tu veux faire du POST plus tard)
